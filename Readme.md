@@ -2,7 +2,7 @@
 
 Bot de Telegram en JAVA y SQLite.
 
-Sirve para consultar los precios de las gasolineras más cercanas a tu ubicación. Los datos son procedentes del portas de Datos Abiertos del gobierno de España. Se ha realizado como un ejercicio para ver las posibilidades de explotación de los datos abiertos a través de Telegram. Siéntase libre de usar el código como mejor vea. 
+Sirve para consultar los precios de las gasolineras más cercanas a tu ubicación. Los datos son procedentes del portal de Datos Abiertos del gobierno de España. Se ha realizado como un ejercicio para ver las posibilidades de explotación de los datos abiertos a través de Telegram. Siéntase libre de usar el código como mejor veas. 
 
 URL del Bot: https://t.me/SurtidorBot
 

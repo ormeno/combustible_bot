@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.combustible_bot</groupId>
+  <artifactId>combustible_bot</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>combustible_bot Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+   <properties>
+      <project.buid.sourceEncoding>UTF-8</project.buid.sourceEncoding>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  <dependencies>
+	  <dependency>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <version>3.8.1</version>
+	      <scope>test</scope>
+	    </dependency>
+  
+  <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>servlet-api</artifactId>
+	    <version>3.0-alpha-1</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
+	<dependency>
+	    <groupId>org.telegram</groupId>
+	    <artifactId>telegrambots</artifactId>
+	    <version>5.5.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+	<dependency>
+	    <groupId>org.mongodb</groupId>
+	    <artifactId>mongo-java-driver</artifactId>
+	    <version>3.9.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.15</version>
+    </dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-nop</artifactId>
+	    <version>1.7.25</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>4.0.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+   <dependency>
+     <groupId>commons-net</groupId>
+     <artifactId>commons-net</artifactId>
+     <version>3.3</version>
+   </dependency>
+	<dependency>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <version>0.1.53</version>
+      <type>jar</type>
+   </dependency>
+   <dependency>
+  	  <groupId>com.vdurmont</groupId>
+  	  <artifactId>emoji-java</artifactId>
+  	  <version>5.1.1</version>
+	</dependency>
+   <!-- https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp -->
+	<dependency>
+	    <groupId>com.squareup.okhttp</groupId>
+	    <artifactId>okhttp</artifactId>
+	    <version>2.7.5</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+  <dependency>
+    <groupId>org.xerial</groupId>
+    <artifactId>sqlite-jdbc</artifactId>
+    <version>3.34.0</version>
+  </dependency>
+	
+  
+  </dependencies>
+  <build>
+    <finalName>combustible_bot</finalName>
+  </build>
+</project>
